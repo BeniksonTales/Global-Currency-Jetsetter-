@@ -2,22 +2,50 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Currency Converter</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<div class="container">
-  <h2>Currency Converter</h2>
+  <div class="container">
+    <header>
+      <h1>Currency Converter</h1>
+      <p id="last-updated">Updating rates...</p>
+    </header>
+    
+    <div class="grid-layout">
+      <div class="block base-block">
+        <label class="block-label">FROM</label>
+        <div class="input-row">
+          <div class="select-wrapper">
+            <select id="base-select"></select>
+          </div>
+          <input type="number" id="base-amount" value="100">
+        </div>
+      </div>
 
-  <input type="number" id="amount" placeholder="Enter amount" />
+      <div id="target-blocks" class="target-container">
+      </div>
+    </div>
 
-  <select id="from"></select>
+    <footer>
+      <button id="change-targets-btn">Change Target Currencies</button>
+    </footer>
+  </div>
 
-  <select id="to"></select>
-
-  <button onclick="convert()">Convert</button>
-  <div id="result"></div>
-</div>
+  <div id="currency-modal" class="modal hidden">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h3>Select Currencies</h3>
+        <button id="close-modal-btn">&times;</button>
+      </div>
+      <div id="modal-currency-list" class="modal-list"></div>
+    </div>
+  </div>
 
 <script src="script.js"></script>
 </body>
