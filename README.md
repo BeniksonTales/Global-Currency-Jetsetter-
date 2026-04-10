@@ -1,95 +1,81 @@
-# 💱 Global Currency "Jetsetter"
+# 💱 Global Currency Jetsetter
 
-A simple and user-friendly currency converter web application that helps users compare how their money translates across multiple countries in real time.
+A modern, minimalist, and lightning-fast currency converter web application. Jetsetter helps you visualize and compare exchange rates across multiple countries in real-time with a clean, grid-based interface.
 
 ---
 
-## 🚀 Features
+## 🔗 Live Demo
+Check out the live application here:  
+**[Global Currency Jetsetter - Live Demo](https://global-currency-jetsetter-pkpu5fluu-beniksontales-projects.vercel.app/)**
 
-* 🔢 Convert currency from one base currency to multiple target currencies
-* 🌍 Supports multiple international currencies
-* ⚡ Real-time exchange rates using API
-* 🕒 Displays last updated exchange rate time
-* 🎯 Clean and minimal UI for easy use
+---
+
+## 🚀 Key Features
+
+*   **⚡ Real-Time Conversion:** Instant updates as you type, powered by reliable exchange rate data.
+*   **🌍 Multi-Target Support:** Convert your base currency into multiple target currencies simultaneously.
+*   **🎨 Minimalist UI:** A clean, four-block layout designed for maximum focus and ease of use.
+*   **🕒 Smart Sync:** Automatically displays the last updated timestamp from the exchange rate provider.
+*   **📱 Responsive Design:** Seamless experience across desktop and mobile devices.
 
 ---
 
 ## 🛠️ Tech Stack
 
-* HTML
-* CSS
-* JavaScript (or React, if used)
-* Frankfurter API (https://www.frankfurter.dev/)
-
----
-
-## 📸 Screenshots
-
-*(Add screenshots of your project here)*
+*   **Frontend:** Vanilla HTML5, CSS3 (Custom Variables & Grid), JavaScript (ES6+)
+*   **API Provider:** [Frankfurter API](https://www.frankfurter.dev/) for accurate, open-source exchange rates.
+*   **Typography:** Modern sans-serif fonts for a premium look and feel.
 
 ---
 
 ## ⚙️ How It Works
 
-1. User enters an amount
-2. Selects a base currency
-3. Chooses one or more target currencies
-4. App fetches real-time exchange rates
-5. Displays converted values instantly
+1.  **Enter Amount:** Type the value you wish to convert in the base currency field.
+2.  **Select Currencies:** Choose your base currency and up to three target currencies for comparison.
+3.  **Instant Fetch:** The app communicates with the Frankfurter API to fetch the latest rates.
+4.  **Visualize:** View the converted values instantly in a clean, categorized layout.
 
 ---
 
-## 🔌 API Used
+## 📦 Local Setup & Development
 
-* **Frankfurter API**
-  Provides reliable and free currency exchange rate data
-
-Example endpoint:
-https://api.frankfurter.dev/latest?amount=1&from=USD&to=INR,EUR
-
----
-
-## 📦 Installation & Setup
-
-1. Clone the repository:
-
-```
-git clone https://github.com/your-username/currency-converter.git
-```
-
-2. Navigate to the project folder:
-
-```
-cd currency-converter
-```
-
-3. Open `index.html` in your browser
-   *(or run `npm start` if using React)*
+1.  **Clone the Repo:**
+    ```bash
+    git clone https://github.com/BeniksonTales/Global-Currency-Jetsetter-.git
+    ```
+2.  **Navigate to Project:**
+    ```bash
+    cd Global-Currency-Jetsetter-
+    ```
+3.  **Run Locally:**
+    Simply open `index.html` in your browser or use a local server like Live Server (VS Code extension) or `npx serve .`.
 
 ---
 
-## 💡 Future Improvements
+## 💡 Planned Enhancements
 
-* 📊 Add historical data charts
-* 🌐 Add more currencies
-* 📱 Make fully responsive design
-* ⭐ Save favorite currency pairs
+*   [ ] **Charts:** Historical exchange rate trends and visualizations.
+*   [ ] **Favorites:** Ability to save frequently used currency pairs.
+*   [ ] **Dark Mode:** A sleek nocturnal theme for better low-light usability.
+*   [ ] **Offline Support:** Cached rates for quick lookups without an internet connection.
 
 ---
 
 ## 🙌 Acknowledgements
 
-* Frankfurter API for exchange rate data
-* Inspiration from modern fintech applications
+*   Exchange rate data provided by [Frankfurter](https://www.frankfurter.dev/).
+*   Design inspired by modern minimalist fintech dashboards.
 
 ---
 
 ## 📌 Author
 
-* Vaibhav Singh
+**Vaibhav Singh**  
+*Full-stack Developer & UI Enthusiast*
 
 ---
 
 ## ⭐ Show Your Support
 
-If you like this project, consider giving it a ⭐ on GitHub!
+If you found this tool useful, please consider giving the repository a ⭐ on GitHub!
+
